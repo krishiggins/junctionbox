@@ -1,0 +1,14 @@
+#TODO - Add explicit versioning
+# Required to build the application
+dash
+dash_renderer
+dash_core_components
+dash_html_components
+dash_table_experiments
+dash-bootstrap-components
+plotly
+# Required to deploy it in Heroku
+gunicorn
+#Data Processing
+pandas
+numpy
