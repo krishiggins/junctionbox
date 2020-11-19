@@ -1,18 +1,14 @@
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-import dash_bootstrap_components as dbc
 import plotly.express as px
 
-import themestore.themes as themes
-import utils.frontend.themes.templates
+from utils.server import app
+from utils.themestore import themes
 
 import pandas as pd
 import datetime
 from dateutil.relativedelta import relativedelta
-
-app = dash.Dash(external_stylesheets=[themes.BOOTSTRAP, themes.DEFAULT, themes.FONTAWESOME])
-
 
 class Charts():
     def __init__(self):
