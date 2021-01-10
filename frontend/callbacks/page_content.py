@@ -1,5 +1,5 @@
-from utils.server import app
-from utils.layout.plots.charts import Charts
+from frontend.server import app
+from frontend.layout.plots.charts import Charts
 
 from dash.dependencies import Input, Output, State
 import dash_html_components as html

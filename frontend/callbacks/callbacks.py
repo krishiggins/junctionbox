@@ -1,4 +1,4 @@
-from utils.server import app
+from frontend.server import app
 from dash.dependencies import Input, Output, State
 
 # this callback uses the current pathname to set the active state of the

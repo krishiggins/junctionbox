@@ -3,8 +3,8 @@ import dash_core_components as dcc
 import dash_html_components as html
 import plotly.express as px
 
-from utils.server import app
-from utils.themestore import themes
+from frontend.server import app
+from frontend.themestore import themes
 
 import pandas as pd
 import datetime
