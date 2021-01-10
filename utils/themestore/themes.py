@@ -9,4 +9,4 @@ FONTAWESOME = {
     'crossorigin': 'anonymous'
         }
 
-DEFAULT = themes.SOLAR
+DEFAULT = themes.SUPERHERO
